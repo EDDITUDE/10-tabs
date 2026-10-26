@@ -1,0 +1,65 @@
+html {
+    background-color: pink;
+    font-family: "bahnschrift", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+code {
+    background-color: rgba(0,0,0,0.2);
+    padding: 0 4px 0 4px;
+    border-radius: 8px;
+}
+
+.site-header {
+    background-color: orange;
+    padding: 20px 20px 0 20px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.site-main {
+    background-color: ivory;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+
+
+.site-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.site-links li {
+    flex: 1 1 0;
+}
+
+.site-link {
+    background-color:brown;
+    color: white;
+    padding: 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.site-link:hover {
+    background-color: darkgoldenrod;
+}
+
+.current-page {
+    background-color: white;
+    color: darkred;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
